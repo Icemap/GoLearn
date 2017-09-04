@@ -1,6 +1,6 @@
 package dao
 
-import "main/model"
+import "GOLEARN/main/model"
 
 func InsertVista(Url string, Content string, Belong int, Lon float64, Lat float64) int {
 	var vista model.Vista

@@ -3,11 +3,11 @@ package service
 import (
 	"io"
 	"strconv"
-	"main/dao"
+	"GOLEARN/main/dao"
 	"net/http"
 	"time"
 	"os"
-	"main/utils"
+	"GOLEARN/main/utils"
 )
 
 func InsertVista(responseWriter http.ResponseWriter, request *http.Request)  {

@@ -1,6 +1,6 @@
 package dao
 
-import "main/model"
+import "GOLEARN/main/model"
 
 func SelectAllManager() []model.Manager {
 	data := make([]model.Manager, 0)

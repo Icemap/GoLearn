@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"main/model"
+	"GOLEARN/main/model"
 	"os"
 	"encoding/json"
 	"io/ioutil"
